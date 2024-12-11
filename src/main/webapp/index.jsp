@@ -78,12 +78,12 @@
 <body>
 <h1>Welcome</h1>
 
-<a href="/JeeVersion_war_exploded/employe" class="card">
+<a href="/employe" class="card">
     <h2>Employe Management</h2>
 <%--    <p>Go to Page 1</p>--%>
 </a>
 
-<a href="SalaryManagement.jsp" class="card">
+<a href="/salary" class="card">
     <h2>FicheSalaire Management</h2>
 <%--    <p>Go to Page 2</p>--%>
 </a>

@@ -15,6 +15,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
+@WebServlet(name = "salaryController", value = "/salary")
 public class SalaryController extends HttpServlet {
     InterfaceSalaire salaryService = new GestionSalaireV1();
 
